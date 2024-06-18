@@ -28,7 +28,7 @@ onMounted(() => {
     .then(()=> students.value.map((value, index)=>value['order']=index+1));
 });
 </script>
-
+ 
 <template>
   <v-app-bar
     style="left: auto; min-width: 50%"

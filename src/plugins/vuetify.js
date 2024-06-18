@@ -21,8 +21,6 @@ export default createVuetify({
   locale:{
     locale: 'ar',
     fallback: 'ar',
-    messages: { ar },
-    rtl: { ar: true}
   },
   theme: {
     themes: {
